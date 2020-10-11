@@ -142,9 +142,9 @@ func TestUnknownCommands(t *testing.T) {
 		expectedError []string
 	}{
 		{
-			[]string{"service", "udpate", "test", "--scale-min=0"},
+			[]string{"service", "update", "test", "--scale-min=0"},
 			[]string{"service"},
-			[]string{"unknown sub-command", "udpate"},
+			[]string{"unknown sub-command", "update"},
 		},
 		{
 			[]string{"service", "--foo=bar"},
