@@ -42,7 +42,7 @@ func NewFakeWatch(events []watch.Event) *FakeWatch {
 	}
 }
 
-// Stop the watch challend
+// Stop the watch channel called
 func (f *FakeWatch) Stop() {
 	f.StopCalled++
 }
